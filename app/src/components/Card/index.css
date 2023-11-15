@@ -1,0 +1,20 @@
+.card-btn {
+	background-color: #fab949;
+	height: 45px;
+	width: 75%;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	padding: 0px 15px 0px 15px;
+	box-sizing: border-box;
+	justify-content: flex-start;
+	gap: 10px;
+	cursor: pointer;
+	border: none;
+}
+.label {
+	font-family: 'Kanit';
+	font-weight: 300;
+	color: "#FFF";
+	font-size: 12px;
+}
