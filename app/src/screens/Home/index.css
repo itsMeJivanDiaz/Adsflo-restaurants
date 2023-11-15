@@ -1,0 +1,65 @@
+.container {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	background-color: #2e2f31;
+	overflow: hidden;
+}
+.header-title {
+	position: absolute;
+	z-index: 100;
+	display: flex;
+	padding-left: 35px;
+}
+.title{
+	position: relative;
+	color: #ffcb71;
+	font-family: "Kanit";
+	font-weight: 500;
+}
+.values-list {
+	flex: 1.5;
+	background-image: url("../../assets/images/value-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.values-list::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 40%;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.8);
+}
+.categories-list {
+	height: 100%;
+	flex: 1;
+	background-color: #000;
+	box-sizing: border-box;
+	justify-content: center;
+	display: flex;
+	padding-top: 35px;
+}
+@media only screen and (max-width: 600px) {
+	.container{
+		flex-direction: column;
+	}
+  .categories-list {
+		display: none;
+	}
+	.values-list::before {
+		right: 0;
+	}
+	.header-title {
+		padding: 0px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.title {
+		font-size: 25px;
+	}
+}

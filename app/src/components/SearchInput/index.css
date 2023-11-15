@@ -1,0 +1,28 @@
+.input-container {
+	width: 75%;
+	height: 45px;
+	background-color: #FFF;
+	border-radius: 25px;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 15px 25px 15px 15px;
+	box-shadow: -2px 3px 0px #fab949;
+	display: flex;
+	gap: 10;
+	justify-content: space-between;
+	align-items: center;
+}
+input {
+	width: 95%;
+	border: 0px;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	font-family: "Kanit";
+	color: rgb(86, 86, 86);
+	font-weight: 300;
+	font-size: 12px;
+}
+input:focus {
+	outline: none;
+}
