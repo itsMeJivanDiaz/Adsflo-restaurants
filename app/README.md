@@ -9,4 +9,4 @@ During development the server is not using any cors therefore the app was unable
 To solver this, either configure the server to use cors or install CORS Broser Extension.
 
 ## DEPLOYED:
-https://vercel.com/jivan-diazs-projects/adsflo-restaurants
+https://adsflo-restaurants-u3fup3909-jivan-diazs-projects.vercel.app/
