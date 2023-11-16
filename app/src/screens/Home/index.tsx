@@ -21,6 +21,10 @@ export default function Home() {
 	const fetchRestaurants = useCallback(async () => {
 		const result = await getRestaurants();
 		
+		if (!result) {
+			return;
+		}
+
 		const groupedByState = result.reduce((item: any, current: restaurant) => {
 			const state = current.state
 			const restaurantName = current.restaurant_name;
